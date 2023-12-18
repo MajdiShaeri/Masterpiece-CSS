@@ -15,6 +15,7 @@ html, body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 50px ;
 }
 
 .logo-links{
@@ -76,7 +77,6 @@ html, body{
     align-items: center;
     gap: 25px;
     padding-top: 25px;
-    margin-top: -100px;
 
 }
 
