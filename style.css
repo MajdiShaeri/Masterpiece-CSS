@@ -1,0 +1,144 @@
+html, body{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*first section*/
+
+.header{
+    background: #1F2937;
+    color:white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-links{
+    display: flex;
+    gap: 500px;
+    
+}
+
+.logo{
+    font-size: 24px;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+}
+
+.header-content{
+    display: flex;
+    justify-content: center;
+    gap: 190px;
+    margin-top: 50px;
+    font-size: 30px;
+    align-items: center;
+    
+}
+
+
+.left-content{
+    width: 300px;
+}
+
+.masterpice{
+    font-size: 48px;
+    font-weight: bolder;
+    
+}
+
+.this-game{
+    padding-top: 5px;
+}
+
+.sign-game{
+    margin-top: 5px;
+}
+.right-content{
+    background: grey;
+    height: 250px;
+    width: 500px;
+}
+
+/*second section*/
+.content1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding-top: 25px;
+    margin-top: -100px;
+
+}
+
+.bosses{
+    display: flex;
+    gap: 100px;
+}
+
+.boss{
+    border:5px #3882f6 solid;
+
+}
+.boss-name{
+    display: flex;
+    gap: 150px;
+}
+
+/*third section*/
+
+.content2{
+    background: lightslategrey;
+    display: flex;
+    flex-direction: column;
+    font-size: 69px;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    margin-top: 100px;
+    height: 400px;    
+}
+.author{
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 400px;
+}
+
+/*fourth section*/
+
+.content3{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.message-box{
+    background: #3882f6;
+    display: flex;
+    gap: 250px;
+    height:80px;
+    width: 1000px;; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.footer{
+    text-align: center;
+    background: #1F2937;
+    color: white;
+}
